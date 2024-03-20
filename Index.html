@@ -1,1 +1,145 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>Bulbasaur</title>
+    <style>
+        .body {
+            color:#282727;
+            background-color:#f4f4f4;
+        }
+
+        body {
+            display: block;
+            margin: 8px;
+        }
+
+        .main {
+            color: #282727;
+            background-color: #f4f4f4;
+            max-width: 80vw;
+            margin: 0 auto;
+            flex-wrap: wrap;
+}
+
+        .main section {
+            color: black;
+            background-color: #fff;
+            padding: 20px;
+            border-radius: 5px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+            margin-bottom: 20px;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .header {
+            background-color: #007bff;
+            color: #fff;
+            padding: 20px;
+            display: flex;
+            justify-content: center;
+            margin-bottom: 20px;
+        }
+
+        .Lista-Bulbasaur ul {
+          display: flex;
+          flex-wrap: wrap;
+          gap: 20px;
+        }
+
+        li {
+            list-style-type: none;
+        }
+
+        .box {
+            color: #fff;
+            background-color: #282727;
+        }
+
+        .bulbasaur {
+            width: 95px;
+        }
+
+        #info-bulbasaur img {
+            width: 150px;
+            height: 150px;
+            align-self: center;
+        }
+
+
+    </style>
+</head>
+
+<body>
+
+ <header class="header">
+    <h1>Bulbasaur</h1>
+</header> 
+
+<div class="box">
+<nav class="Lista-Bulbasaur">
+    <ul>
+        <li><p>Informações sobre o Bulbasaur</p></li>
+        <li><p>Características</p></li>
+        <li><p>Curiosidades</p></li>
+        <li><p>Artigo sobre Bulbasaur</p></li>
+        <li><p>Recursos Adicionais</p></li>
+        <li><p>Evoluções</p></li>
+        </ul>
+    </nav>
+</div>
+<main class="main">    
+<section id="Info-Bulbasaur">
+    <h2>Informações sobre o Bulbasaur</h2>
+        <img src="data:image/jpeg;base64,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" alt="Imagem do Bulbasaur">
+        <p> É difícil de ser encontrado na natureza, geralmente sendo um Pokémon inicial para novos treinadores. 
+         Seu bulbo pisca em azul quando está pronto para evoluir, e muitos Bulbasaur se reúnem para evoluir para Ivysaur sob a liderança de um Venusaur.</p>
+</section>
+<section id="Características">
+    <h2>Características</h2>
+    <p>Bulbasaur é um Pokémon pequeno e anfíbio com pele azul esverdeada e um bulbo nas costas que esconde vinhas.
+        Ele é conhecido por ser leal, especialmente um Pokémon mais jovem e fraco, e é domesticado desde o nascimento.</p>
+</section>
+<section id="Curiosidades">
+    <h2>Curiosidades</h2>
+    <ul>
+        <li><p>Clorofila: Durante a forte luz solar, a estatística de velocidade dos Pokémon com esta habilidade é duplicada.</p></li>
+        <li><p>Crescer Demais: Quando um Pokémon com Overgrow usa um de seus movimentos será aumentado em 50% se o usuário tiver menos da metade do seu HP máximo restante.</p></li>
+    </ul>
+</section>
+<section id="Artigo-Bulbasaur">
+    <h2>Bulbasuar: O Amigo Terrestre</h2>
+    <p>Bulbasaur, com sua aparência simpática e sua habilidade em controlar as plantas, 
+        conquistou o coração de treinadores Pokémon ao redor do mundo. Sendo o inicial de grama na região de Kanto, 
+        Bulbasaur é uma escolha popular para aqueles que buscam por suporte em suas equipes.
+    </p>
+</section>
+<section id="Recursos">
+    <h2>Recursos Adicionais</h2>
+    <ul>
+        <li><a href="https://www.google.com/search?q=pokedex+bulbasaur&rlz=1C1GCEU_pt-BRBR1073BR1073&oq=&gs_lcrp=EgZjaHJvbWUqCQgAECMYJxjqAjIJCAAQIxgnGOoCMgkIARAjGCcY6gIyCQgCECMYJxjqAjIJCAMQIxgnGOoCMgkIBBAjGCcY6gIyCQgFECMYJxjqAjIJCAYQIxgnGOoCMgkIBxAjGCcY6gLSAQkyMTQ1NWowajGoAgiwAgE&sourceid=chrome&ie=UTF-8" target="_blank">Bulbasaur</a></li>
+    </ul>
+</section>
+<section id="Evoluções">
+    <h2>Evoluções</h2>
+    <ul>
+        <li>
+        <a href="https://www.google.com/search?q=bulbasaur&source=lmns&bih=703&biw=1536&prmd=isvnbmtz&rlz=1C1GCEU_pt-BRBR1073BR1073&hl=pt-BR&sa=X&ved=2ahUKEwjCkLb-4oKFAxXAKmIAHdhoDAkQ0pQJKAB6BAgBEAI" target="_blank">
+            <img src="data:image/jpeg;base64,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" alt="Imagem do Bulbasaur">
+            <p>Bulbasaur<p>
+            </a>
+        </li>
+    </ul>
+</section>
+<div id="Contato">
+    <p>&copy; 2024 Página do Pokémon Squirtle. Todos os direitos reservados.</p>
+    <p><a href="Index.html">Voltar ao Topo</a></p>
+</div>
+
+</main>
+</body>
+</html>
 
